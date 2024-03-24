@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Home-Travelopia</title>
+    <script src="https://kit.fontawesome.com/e38a04754e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;display=swap&amp;ver=1" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway%3Aital%2Cwght%400%2C500%3B0%2C600%3B0%2C700%3B1%2C500%3B1%2C600%3B1%2C700&#038;display=swap&#038;ver=1"> 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway%3Aital%2Cwght%400%2C500%3B0%2C600%3B0%2C700%3B1%2C500%3B1%2C600%3B1%2C700&amp;display=swap&amp;ver=1" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="icon" type="image/png" href="./images/fav.png">
+  </head>
+  <body>
+    
+    <section class="cont1">
+      <div id="white">
+      <nav id="tarv" >
+        <h3 id="logo"><a id="icon" href="index.html">Travelopia</a</h3>
+        </nav>
+        
+      <nav class="menu" >
+        <ul id="menu1">
+          <li id="list"><a id="anc" class="anchor" href="index.html">Home</a></li>
+          <li id="list"><a id="anc" class="anchor" href="https://www.travelopia.com/about-us/" target="_blank">About Us</a></li>
+          <li id="list"><a id="anc" class="anchor" href="https://www.travelopia.com/our-brands/" target="_blank">Our Brands</a></li>
+          <li id="list"><a id="anc" class="anchor" href="https://www.travelopia.com/sustainability/" target="_blank">Sustainability</a></li>
+          <li id="list"><a id="anc" class="anchor" href="https://www.travelopia.com/work-with-us/" target="_blank">Work with us</a></li>
+          <!-- <i class="fa-solid fa-xmark"></i>
+          <i class="fa-solid fa-bars"></i> -->
+        </ul>
+     
+      </nav>
+
+    </div>
+  </section>
+  <div id="text">
+    <h4>THE WORLD'S LEADING COLLECTION OF</h4>
+    <h1>EXPERIENTIAL TRAVEL BRANDS</h1>
+  </div>
+
+        <div class="image" >
+          <img id="logo1" src="./images/travelopia-logo.jpg" alt="">
+        </div>
+    <section class="cont2">
+    <div id="para">
+      <p>We are travel experts. Our award-winning travel brands create unique experiences for</br>our guests around the world.
+         From wildlife encounters to polar expeditions, from cultural</br> tours to yachting adventures, our business is not 
+         just about showing people the world,</br> but designing new ways to experience it.    </div>
+      </p>
+     
+    </div>
+    <div class="content">
+      <div id="div1">
+        <h2 >120+</h2>
+        <p>destinations visited<br/> every year</p>
+      </div  >
+     
+      <div id="div_1" >
+        <h2 >~400,000</h2>
+        <p>guests welcomed <br/> every year</p>
+        </div>
+        <div  id="div5">
+          <h2 >2500+</h2>
+          <p>colleagues across<br/>the world </p>
+
+        </div>
+    </div>
+    <!-- <nav class="content2">
+    <div id="div2">
+      <p>destinations visited</p>
+      <p id="wor">every year</p>
+    </div>
+    <div id="div3">
+      <p>guests welcomed</p>
+      <p id="war1">each year</p>
+    </div >
+    <div id="div11">
+      <p>colleagues across</p>
+      <p id="world" >the world</p>
+    </div>
+  </nav> -->
+  </section>
+  <!------------------------------------Second page--------------------------------------------->
+  <h1 id="wel">Welcome to Travelopia</h1>
+  <section class="cont3">
+   
+    <div id="al">
+    <div ><img id="img1" src="./images/MOORINGS-BAHAMAS-UPTOPMEDIA-141-1-e1640033699282.webp" alt=""></div>
+    <div ><img id="img2" src="./images/hero-3-e1640030498707.webp" alt=""></div>
+  </div>
+    <div><img  id="img3" src="./images/samuel-chenard-7wI5SECPq9Q-unsplash.webp" alt=""></div>
+    <div id="al1">
+    <div><img  id="img4" src="./images/Carousel-shutterstock_386710591-Civita-di-Bagnoregio.webp" alt=""></div>
+    <div><img  id="img5" src="./images/Quark-Expeditions_Under-the-Northern-Lights_zodiac_cruise_bernstorff_isfjord_eastgreenland_acaciajohnson__4.webp" alt=""></div>
+  </div>
+  </section>
+
+
+  <script>
+     window.addEventListener('scroll', function() {
+      var cont1 = document.getElementById('white');
+      const icon = document.getElementById('icon');
+      const anc= document.getElementsByClassName('anchor');
+      console.log(anc);
+      var scrollPosition = window.scrollY;
+      var triggerPosition = 644;
+      if (scrollPosition >= triggerPosition) {
+        cont1.style.backgroundColor = "white";
+        icon.style.color = "black";
+        // anc.style.color = "black";
+        // console.log(anc);
+        for(let i = 0; i<anc.length; i++) {
+          anc[i].style.color = "black";
+        }
+        // anc[0].style.backgroundColor = "red";
+        
+
+    } 
+    else {
+      white.style.backgroundColor = 'transparent'; 
+      icon.style.color = "white";
+      // anc.style.color = "white";
+      for(let i = 0; i<anc.length; i++) {
+          anc[i].style.color = "white";
+        }
+    }
+  }
+  );
+</script> 
+<!-----------------------------------------------Third page-------------------------------------------------- -->
+<h1 id="third">Meet Our Amazing Brands</h1>
+<section class="cont4">
+<div id="images">
+  <nav id="pol"><a href="https://www.travelopia.com/our-brands/polar/" target="_blank"><img id="png" src="./images/01.png" alt=""></a></nav>
+  <nav id="pol"><a href="https://www.travelopia.com/our-brands/jet/" target="_blank"><img id="png" src="./images/02.png" alt=""></a></nav>
+  <nav id="pol"><a href="https://www.travelopia.com/our-brands/golf-tours/" target="_blank"><img id="png" src="./images/03.png" alt=""></a></nav>
+  <nav id="pol"><a href="https://www.travelopia.com/our-brands/#marine-and-waterways" target="_blank"><img id="png" src="./images/04.png" alt=""></a></nav>
+</div>
+  <div id="images1">
+    <nav id="pol1"><a href="https://www.travelopia.com/our-brands/adventure/" target="_blank"><img id="png" src="./images/001.png" alt=""></a></nav>
+    <nav id="pol1"><a href="https://www.travelopia.com/our-brands/#tailor-made-travel" target="_blank"><img id="png" src="./images/002.png" alt=""></a></nav>
+    <nav id="pol1"><a href="https://www.travelopia.com/our-brands/education/" target="_blank"><img id="png" src="./images/003.png" alt=""></a></nav>
+    <nav id="pol1"><a href="https://www.travelopia.com/our-brands/events/" target="_blank"><img id="png" src="./images/004.png" alt=""></a></nav>
+  </div>
+
+</section>
+
+<!-----------------------------------------------Fourth page-------------------------------------------------- -->
+  <section class="cont5">
+<div id="forth"><img id="loc" src="./images/Santorini.webp" alt=""></div>
+<div id="forth1">
+  <h2 id="work">Work with us</h2>
+  <h3 id="tec">Travelopia brings together<br/> over 2000 colleagues from<br/>around the world, who work <br/>together to create industry-<br>leading travel experiences.<br/> Join us on our journey<br/>forward.</h3>
+  <button id="btn"><a id="vi" href="https://globalcareers.travelopia.com/Department/All%20Vacancies" target="_blank">View Global Vacancies</button></a>
+</div>
+  </section>
+  <!-- -----------------------------------------------Footer-------------------------------------------------- --> 
+  <footer class="footer">
+    <div class="footer_row">
+      <div id="adre">
+        <h1 id="foot_h1">Travelopia</h1>
+        <p id="foot_p">Origin One, 108 High Street,<br/>
+          Crawley, West Sussex, RH10 1BD<br/>
+          United Kingdom</p>
+      </div>
+      
+      <nav id="foot1">
+        <ul class="foot_ul">
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/about-us/" target="_blank">About Us</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/our-brands/" target="_blank">Our Brands</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/sustainability/" target="_blank">Sustainability</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/leadership/" target="_blank">Leadership</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/our-brands/travelopia-group-functions/" target="_blank">Travelopia Group Foundation</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/reports/" target="_blank">Reports</a></li>
+        </ul>
+
+        <ul class="foot_ul1">
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/" target="_blank">Contact Us</a></li>
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/work-with-us/" target="_blank">Work With Us</a></li>
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/cookies-policy/" target="_blank">Cookie Policy</a></li>
+          
+        </ul>
+
+      </nav>
+    </div>
+  </footer>
+  <p id="last">Travelopia Holdings Limited is a registered company in England (Company No 5934241).<br/>
+    Registered Office: Origin One, 108 High Street, Crawley, West Sussex RH10 1BD</p>
+
+    <p id="copy">Copyright © Travelopia 2024</p>
+  </body>
+</html>

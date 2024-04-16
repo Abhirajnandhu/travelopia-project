@@ -17,13 +17,13 @@
         <div class="bg1">
             <div id="sec">
             <nav class="navi">
-                <div id="title"><img src="../images/Travelopiawhitelogo.png" width="160px" height="45px"></div>
+                <div id="title"><img src="../images/Travelopiawhitelogo.png" width="160px" height="45px" id="title-img"></div>
                 <div class="navi1">
                     <div id="home"><a href="../index.html" class="anchor">Home</a></div>
                     <div id="about"><a href="TravelOpia.html" class="anchor" id="active">About Us</a></div>
                     <div id="brand"><a href="Ourbrands.html" class="anchor">Our Brands</a></div>
                     <div id="sustain"><a href="Sustainability.html" class="anchor">Sustainability</a></div>
-                    <div id="work"><a href="" class="anchor">Work with us</a></div>
+                    <div id="work"><a href="https://www.travelopia.com/work-with-us/" class="anchor">Work with us</a></div>
                 </div>
             </nav>
             </div>
@@ -36,19 +36,23 @@
                 var container = document.querySelector('.navi1'); // Corrected the method to querySelector
                 const title = document.getElementById('title');
                 const anc = document.querySelectorAll('.anchor'); // Corrected the method to querySelectorAll
+                const image = document.getElementById("title-img");
                 const logo = document.getElementById('img'); // Select the logo image
                 var scrollPosition = window.scrollY;
                 var triggerPosition = 644;
                 if(scrollPosition >= triggerPosition){
+                    
                     container.style.backgroundColor = "white";
                     title.style.color = "black";
                     title.style.backgroundColor = "white";
-                    logo.style.filter = "invert(100%)"; // Invert the logo colors
+                    image.src = "../images/travelopia_logo.png";
+                 //   logo.style.filter = "invert(100%)"; // Invert the logo colors
                     for (let i = 0; i < anc.length; i++){
                         anc[i].style.color = "black";
                     }
                 }
                 else{
+                    image.src = "../images/Travelopiawhitelogo.png";
                     container.style.backgroundColor = 'transparent';
                     title.style.backgroundColor = 'transparent';
                     title.style.color = "white";

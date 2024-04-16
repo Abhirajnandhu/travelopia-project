@@ -7,7 +7,7 @@
   background-color: rgb(145, 143, 143);
   background-blend-mode: multiply;
 }
-body {
+body,html {
   margin: 0%;
 }
 .navi {
@@ -40,7 +40,7 @@ body {
   text-decoration: none;
   color: white;
 }
-#active{
+#active {
   font-weight: bolder;
 }
 #brand > a {
@@ -209,11 +209,11 @@ body {
   width: 130px;
   height: 130px;
 }
-#bar{
+#bar {
   width: 130px;
   height: 100px;
 }
-#amb{
+#amb {
   width: 130px;
   height: 100px;
 }
@@ -427,13 +427,16 @@ p,
   text-align: justify;
   font-size: 18px;
   margin-left: 190px;
-  line-height: 30px;
-  word-spacing: 10px;
+  line-height: 31px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 #cr {
   margin-top: 70px;
-  margin-left: 13%;
-  font-size: 20px;
+  margin-left: 15%;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 .footer {
   margin-top: 20px;

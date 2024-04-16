@@ -1,0 +1,446 @@
+.bg1 {
+  background-image: url(../images/Quark-Antarctica-e1640031267805.webp);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(145, 143, 143);
+  background-blend-mode: multiply;
+}
+body,
+html {
+  margin: 0%;
+}
+.navi {
+  display: flex;
+  justify-content: space-between;
+}
+.navi1 {
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  padding: 30px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 550px;
+  width: 800px;
+}
+#title {
+  padding: 30px;
+  position: fixed;
+  width: 500px;
+  height: 22px;
+}
+#home > a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+}
+#about > a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+}
+#active {
+  font-weight: bolder;
+}
+#brand > a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+}
+#sustain > a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+}
+#work > a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+}
+#header {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.logo-div {
+  height: 53rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img {
+  /* margin-top: 250px; */
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+}
+.about1 {
+  display: flex;
+  margin-top: 150px;
+}
+#img1 {
+  width: 500px;
+  height: 280px;
+  margin-right: 50px;
+  margin-left: 130px;
+}
+#img2 {
+  width: 242px;
+  height: 242px;
+  margin-left: 130px;
+}
+#img3 {
+  width: 242px;
+  height: 242px;
+  margin-left: 15px;
+}
+.inline {
+  display: flex;
+  margin-top: 15px;
+}
+.cont {
+  margin-left: 80px;
+  line-height: 28px;
+  width: 400px;
+}
+#para {
+  font-style: normal;
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 480;
+}
+#para1 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-weight: 480;
+}
+#heading {
+  font-family: "Playfair Display", serif;
+}
+.about2 {
+  display: flex;
+  margin-top: 100px;
+}
+#img4 {
+  width: 500px;
+  height: 280px;
+  margin-right: 130px;
+  margin-left: 80px;
+  margin-bottom: 16px;
+}
+#heading1 {
+  font-family: "Playfair Display", serif;
+}
+#para2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-weight: 480;
+}
+#para3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-weight: 480;
+}
+#para4 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-weight: 480;
+}
+.cont1 {
+  margin-right: 80px;
+  line-height: 28px;
+  width: 400px;
+}
+#img5 {
+  width: 242px;
+  height: 242px;
+  margin-left: 80px;
+}
+#img6 {
+  width: 242px;
+  height: 242px;
+  margin-left: 16px;
+}
+.about2 {
+  display: flex;
+  margin-top: 150px;
+}
+#head {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+#title1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.containernext {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  margin: 80px;
+}
+#para5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 480;
+  text-align: center;
+  line-height: 28px;
+  width: 500px;
+}
+#head {
+  text-align: center;
+}
+#img7 {
+  width: 130px;
+  height: 130px;
+}
+#bar {
+  width: 130px;
+  height: 100px;
+}
+#amb {
+  width: 130px;
+  height: 100px;
+}
+#para6 {
+  color: rgb(1, 80, 116);
+  font-size: 29px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  width: 950px;
+  line-height: 43px;
+}
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+#img8 {
+  width: 450px;
+  height: 450px;
+  margin-right: 120px;
+}
+.content1 {
+  margin-left: 120px;
+  width: 400px;
+  margin-top: 100px;
+}
+#head1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+#para7 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 480;
+  line-height: 28px;
+}
+.button {
+  background-color: black;
+  color: white;
+  padding: 18px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border: none;
+  width: 200px;
+  margin-top: 5px;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 17%;
+  width: 400px;
+  height: 380px;
+  position: relative;
+  margin-top: 35%;
+}
+.morning {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -80%;
+  left: -22%;
+}
+.pax {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.container5 {
+  display: flex;
+}
+.people {
+  margin-right: 80px;
+  line-height: 28px;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 22%;
+}
+#para8 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 480;
+  line-height: 28px;
+}
+#head2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+.map {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 150px;
+}
+.mappart > h1 {
+  position: absolute;
+  bottom: -5050px;
+  font-size: 42px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  margin-left: 180px;
+}
+.mappart > .btn1 {
+  background-color: transparent;
+  color: rgba(21, 18, 18, 0.486);
+  letter-spacing: 1px;
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  position: absolute;
+  bottom: -5100px;
+  display: block;
+  margin-left: 280px;
+}
+.mappart > .btn2 {
+  background-color: transparent;
+  color: rgba(21, 18, 18, 0.486);
+  letter-spacing: 1px;
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  position: absolute;
+  bottom: -5100px;
+  display: block;
+  margin-left: 600px;
+}
+/* ..................Work With Us....................... */
+.container13 {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 8%;
+}
+.para13 > img {
+  width: 600px;
+  object-fit: cover;
+}
+.p13 {
+  background-color: #117ca8;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  line-height: 30px;
+  padding: 10px;
+}
+.p13 > p {
+  font-weight: 520;
+}
+.p13 > h2 {
+  font-weight: 600;
+}
+.p13 > h2,
+p,
+#btn1 {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+#btn1 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border: none;
+  width: 80%;
+}
+/* .........................FOOTER........................... */
+.foot1 {
+  display: flex;
+  margin-top: 50px;
+}
+.footer_row {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  /* margin-left: 180px; */
+}
+#adress > img {
+  width: 20%;
+  object-fit: cover;
+  margin-left: 230px;
+}
+#foo {
+  list-style: none;
+}
+#foot_li {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  line-height: 35px;
+}
+
+.foot_ul {
+  margin-top: 60px;
+  margin-left: -700px;
+}
+#foot_li {
+  font-size: 16px;
+  font-weight: 500;
+}
+.foot_ul1 {
+  margin-top: 55px;
+}
+#foot_p {
+  font-size: 17px;
+  color: black;
+  line-height: 30px;
+  font-weight: 520;
+  margin-left: 250px;
+}
+#last {
+  margin-top: 200px;
+  text-align: justify;
+  font-size: 18px;
+  margin-left: 190px;
+  line-height: 31px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+#cr {
+  margin-top: 70px;
+  margin-left: 15%;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.footer {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}

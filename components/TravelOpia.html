@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Travelopia</title>
+    <link rel="icon" type="image/x-icon" href="travelopia_logo (1).png">
+    <link rel="Stylesheet" href="./about.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <div> -->
+        <div class="bg1">
+            <div id="sec">
+            <nav class="navi">
+                <div id="title"><img src="../images/Travelopiawhitelogo.png" width="160px" height="45px" id="title-img"></div>
+                <div class="navi1">
+                    <div id="home"><a href="../index.html" class="anchor">Home</a></div>
+                    <div id="about"><a href="TravelOpia.html" class="anchor" id="active">About Us</a></div>
+                    <div id="brand"><a href="Ourbrands.html" class="anchor">Our Brands</a></div>
+                    <div id="sustain"><a href="Sustainability.html" class="anchor">Sustainability</a></div>
+                    <div id="work"><a href="https://www.travelopia.com/work-with-us/" class="anchor">Work with us</a></div>
+                </div>
+            </nav>
+            </div>
+            <h1 id="header">Enriching lives through travel</h1>
+            <div class="logo-div"><img src="../images/travelopia-logo.jpg" id="img"/></div>
+        </div>
+ 
+         <script>
+            window.addEventListener('scroll', function(){
+                var container = document.querySelector('.navi1'); // Corrected the method to querySelector
+                const title = document.getElementById('title');
+                const anc = document.querySelectorAll('.anchor'); // Corrected the method to querySelectorAll
+                const image = document.getElementById("title-img");
+                const logo = document.getElementById('img'); // Select the logo image
+                var scrollPosition = window.scrollY;
+                var triggerPosition = 644;
+                if(scrollPosition >= triggerPosition){
+                    
+                    container.style.backgroundColor = "white";
+                    title.style.color = "black";
+                    title.style.backgroundColor = "white";
+                    image.src = "../images/travelopia_logo.png";
+                 //   logo.style.filter = "invert(100%)"; // Invert the logo colors
+                    for (let i = 0; i < anc.length; i++){
+                        anc[i].style.color = "black";
+                    }
+                }
+                else{
+                    image.src = "../images/Travelopiawhitelogo.png";
+                    container.style.backgroundColor = 'transparent';
+                    title.style.backgroundColor = 'transparent';
+                    title.style.color = "white";
+                    logo.style.filter = "invert(0%)"; // Reset the logo colors
+                    for (let i = 0; i < anc.length; i++){
+                        anc[i].style.color = "white";
+                    }
+                }
+            });
+        </script>
+        <div class="about1">
+            <div class="cont">
+                <h1 id="heading">About Travelopia</h1>
+                <p id="para">We pride ourselves on being travel experts. Leading the way when it comes to providing unique travel experiences, our brands offer the world’s best polar expeditions, wildlife safaris, cultural tours, yachting adventures and more.</p>
+                <p id="para1">Our ambition is to build the world’s leading experiential travel company. With over 2500 colleagues across 30 countries worldwide, we are working together to achieve this by sharing our knowledge, expertise and best practices to stay at the forefront of the travel industry.
+                </p>
+            </div>
+            <div class="aboutimg">
+            <div><img src="../images/rory-collins-FqtBZa55GBU-unsplash.webp" id="img1"/></div>
+            <div class="inline"><img src="../images/Happy-Hmong-woman-and-child-smiling-at-Giang-Ta-Chai-village-near-the-hill-town-of-Sapa-Province-North-Vietnam.webp" id="img2"/>
+            <img src="../images/Canada.webp" id="img3"/> 
+        </div>
+    <!-- </div> -->
+        </div>
+    </div>
+    <div class="about2">
+<div class="aboutimg1">
+<div><img src="../images/Iceland-1.webp" alt="error" id="img4"></div>
+<div><img src="../images/Germany-e1640024777971.webp" alt="Error" id="img5"><img src="../images/himanshu-singh-gurjar-iSi02D_Qx_w-unsplash.webp" alt="Error" id="img6"> </div>
+</div>
+<div class="cont1">
+    <h1 id="heading1">Our Purpose</h1>
+    <p id="para2">Our business is more than just a collection of brands. We have a shared purpose – to enrich lives through inspiring travel experiences – not only for our guests but in the communities and destinations that we travel to.</p>
+        <p id="para3">We pride ourselves on offering a seamless and specialised guest journey, from the exceptional service and in-depth knowledge of our sales teams, to our best-in-class tour guides and concierges around the globe.</p> 
+        <p id="para4">As a result of this dedication, our guest satisfaction and loyalty is incredibly high across our entire portfolio. Our brands frequently receive industry awards and media recognition for their holidays.
+     </p>
+</div>
+</div>
+<br>
+<center><h1 id="title1">Our Business</h1></center>
+<section class="content">
+<div class="container">
+    <div class="container1">
+        <center><img src="../images/star.png" id="img7"/></center>
+        <h4 id="head">Amazing Brands</h4>
+        <p id="para5">Each of our incredible brands are industry-leading specialists, recognised for their outstanding experiences that bring guests back to us time and again.
+        </p>
+    </div>
+    <div class="container2">
+        <center><img src="../images/Screenshot 2024-03-25 214013.png" id="bar"></center>
+        <h4 id="head">Ambitious Growth</h4>
+        <p id="para5">Travelopia is already a pioneer in our sector, with a portfolio of award-winning brands. Our vision is to build on this to become the world’s leading experiential travel company.
+        </p>
+    </div>
+    </div>
+    <div class="containernext">
+    <div class="container3">
+        <center><img src="../images/Screenshot 2024-03-26 210445.png" id="amb"></center>
+        <h4 id="head">Great Place to Work</h4>
+        <p id="para5">Operating globally, we’re a diverse team who are united by a passion for travel and for our products. Our focus is on recruiting and retaining exceptional individuals who share our values.
+        </p>
+        <div></div>
+        </div>
+    </div>
+</div>
+</section>
+<center>
+    <p id="para6">Travelopia is at the forefront of global travel for those wanting something distinctive. We are the only collection of travel brands of this kind in the world – our portfolio is exclusively focused on experiential travel.
+    </p>
+</center>
+<div class="container4">
+    <div class="content1">
+        <h1 id="head1">Our Leadership</h1>
+        <p id="para7">At Travelopia, our leaders are each recognised specialists in their areas, and play a key role in shaping our extraordinary adventures.
+        </p>
+        <a href="https://www.travelopia.com/leadership/"><input type="button" class="button" value="Meet Our Leaders"></a>
+    </div>
+    <div><img src="../images/Travelopia-GLT-6-1.webp" id="img8"/></div>
+</div>
+<div class="container5">
+    <div class="content2">
+        <img src="../images/Moorings-Clearwater-Office.webp" class="morning">
+        <img src="../images/pax_group_portal_point_acaciajohnson-1-e1630496276798.webp" class="pax">
+    </div>
+    <div class="people">
+        <h1 id="head2">Our People</h1>
+        <p id="para8">The Travelopia community already reaches across multiple countries worldwide. Such diversity of colleagues offers us breadth of ideas, skills and experience, all of which underpin our ambitious growth plans.
+
+            Our recently created talent hub in Bangalore continues to grow at pace, reflecting our commitment to expanding Travelopia’s global presence. Teams there work alongside existing hubs and offices across North America, Australia, UK and rest of Europe.</p>
+    </div>
+</div>
+<div class="about1">
+    <div class="cont">
+        <h1 id="heading">Our History</h1>
+        <p id="para">At Travelopia, each of our brands has decades of heritage in experiential travel. Often beginning as smaller, independently owned businesses, many have since grown into industry leaders in their respective markets, recognised for delivering outstanding guest experiences. </p>
+        <p id="para1">Our brands were originally brought together by TUI Group to become Travelopia, which was acquired by Kolhberg Kravis Roberts, a global private equity firm, in 2017, with the vision to create the world’s leading experiential travel company. 
+        </p>
+    </div>
+    <div class="aboutimg">
+    <div><img src="../images/Quark-Expeditions_North-Pole_The-Ultimate-Arctic-Adventure_Sam-Crimmin-NP-2015-V3-9591.webp" id="img1"/></div>
+    <div class="inline"><img src="../images/47607-1.webp" id="img2"/>
+    <img src="../images/Mountain_Thailand_2017_AbbeyPatzel_@abbey_patzel01IMG_0302-copy-e1630500804643.webp" id="img3"/> 
+</div>
+</div>
+</div>
+</div>
+<div class="mappart">
+    <img src="../images/world-map.webp" class="map">
+    <h1>Over 130 Source Markets & 120+ Destinations
+    </h1>
+    <button class="btn1">Top 30 Source Markets</button><button class="btn2">Top 50 Destinations</button>
+</div>
+
+<section class="container13">
+    <div class="para13">
+      <img src="../images/ibrahim-rifath-Y6tBl0pTe-g-unsplash-e1640030278345.webp"/>
+    </div>
+    <div class="p13">
+      <h2>Work with us</h2>
+      <p>Travelopia brings together over 2000 colleagues from around the world, who work together to create industry-leading travel experiences. Join us on our journey forward.</p>
+      <a href="https://globalcareers.travelopia.com/" target="_blank"><button id="btn1">View Global Vacancies</button></a>
+    </div>
+  </section>
+  
+  
+  <footer class="footer">
+    <div class="footer_row">
+      <div id="adress">
+        <img src="../images/travelopia_logo.png" id="foot_h1">
+        <p id="foot_p">Origin One, 108 High Street,<br/>
+          Crawley, West Sussex, RH10 1BD<br/>
+          United Kingdom</p>
+      </div>
+      <nav class="foot1">
+        <ul class="foot_ul">
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/about-us/" target="_blank">About Us</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/our-brands/" target="_blank">Our Brands</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/sustainability/" target="_blank">Sustainability</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/leadership/" target="_blank">Leadership</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/our-brands/travelopia-group-functions/" target="_blank">Travelopia Group Foundation</a></li>
+          <li id="foo"><a id="foot_li" href="https://www.travelopia.com/reports/" target="_blank">Reports</a></li>
+        </ul>
+  
+        <ul class="foot_ul1">
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/" target="_blank">Contact Us</a></li>
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/work-with-us/" target="_blank">Work With Us</a></li>
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+          <li id="foo"><a  id="foot_li"href="https://www.travelopia.com/cookies-policy/" target="_blank">Cookie Policy</a></li>
+        </ul>
+      </nav>
+      </div>
+      </footer>
+      <p id="last">Travelopia Holdings Limited is a registered company in England (Company No 5934241).<br/>
+        Registered Office: Origin One, 108 High Street, Crawley, West Sussex RH10 1BD</p>
+    
+        <p id="cr">Copyright © Travelopia 2024</p>
+</body>
+</html>
